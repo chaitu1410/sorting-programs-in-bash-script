@@ -41,4 +41,7 @@ firstly navigate to the directory where script is located using 'cd' command
 time ./your_script_name.sh
 ```
 
-  
+    
+## Authors
+
+- Chaitanya Adinath Shinde([@chaitu1410](https://www.github.com/chaitu1410))
