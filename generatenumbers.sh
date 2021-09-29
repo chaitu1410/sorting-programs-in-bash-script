@@ -6,7 +6,11 @@ if [ -z "$1" ]
 then
         size=1000
 else
-        size=$1
+        if (( $1<1 )); then
+                size=1000
+        else
+                size=$1
+        fi
 fi
 
 while [ $i -lt $size ]
